@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/botBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222227"
+    android:backgroundTint="#222227"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/calistobold"
+        android:text="@string/welcome_to_denno_earning_app"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/letsgo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linear_likebtn"
+        android:gravity="center_horizontal|top|center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="11dp">
+
+        <TextView
+            android:id="@+id/txt_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/flareserif"
+            android:text="@string/sign_up_with_e_mail"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:stv_strokeColor="#272727"
+            app:stv_strokeIs="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/toContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/flareserif"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="@string/to_continue_you_confirm_that_read_our_privacy_policy_and_the_terms_of_use"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#F2CE7F"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/help1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"></LinearLayout>
+
+</LinearLayout>

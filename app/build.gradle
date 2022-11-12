@@ -1,0 +1,83 @@
+
+
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'applovin-quality-service'
+}
+applovin {
+    apiKey = "7aUfhniM6RHgfdB2vsGn2vbi8qZRCmrP0C4mOBWBM-Pv1cF4GPa3S3TxVJFsVazQ8Ktk9rWMnAb475bAfF0PbI"
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.nenno.dennoearningapp"
+        minSdk 24
+        targetSdk 33
+        versionCode 3
+        versionName "1.0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.nenno.dennoearningapp'
+}
+android {
+    bundle {
+        storeArchive {
+            enable = false
+        }
+    }
+}
+
+dependencies {
+
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    implementation 'androidx.test.ext:junit:1.1.4'
+    implementation 'androidx.test.espresso:espresso-core:3.5.0'
+    implementation 'com.google.android.gms:play-services-tasks:18.0.2'
+    implementation platform('com.google.firebase:firebase-bom:30.3.1')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-core'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    implementation 'com.applovin:applovin-sdk:11.5.3'
+    implementation 'com.github.pinball83:masked-edittext:1.0.4'
+    implementation("com.applovin.mediation:adcolony-adapter:4.8.0.2")
+    implementation("com.applovin.mediation:unityads-adapter:4.4.1.0")
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    // Dependency for Firebase Dynamic Links
+    implementation 'com.google.firebase:firebase-dynamic-links-ktx:21.1.0'
+
+    // Official Firebase documentation suggests adding this dependency as well.
+    implementation 'com.google.firebase:firebase-analytics-ktx:21.2.0'
+
+
+
+    // Glide v4 uses this new annotation processor -- see https://bumptech.github.io/glide/doc/generatedapi.html
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+
+
+
+}

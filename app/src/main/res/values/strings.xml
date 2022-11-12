@@ -1,0 +1,180 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Denno Coin Master</string>
+    <string name="welcome_to_denno_earning_app">Welcome to Denno Earning App</string>
+    <string name="sign_up_with_email">Sign up with email</string>
+    <string name="to_continue_you_confirm_that_read_our_privacy_policy_and_the_terms_of_use">To continue you confirm that you read our privacy policy and the terms of use.</string>
+    <string name="sign_up_with_e_mail">Sign up with e-mail</string>
+    <string name="type_a_e_mail_address_here">Enter a e-mail address here</string>
+    <string name="create_a_password_here">Create a password here</string>
+    <string name="confirm_your_password_here">Confirm your password here</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="log_in_with_e_mail">Log in with e-mail</string>
+    <string name="type_your_e_mail_address">Enter your e-mail address</string>
+    <string name="type_your_password">Enter your password</string>
+    <string name="you_have">You have</string>
+    <string name="nine">Nine</string>
+    <string name="memory_game">Memory game</string>
+    <string name="seconds_left">Seconds left</string>
+    <string name="will_earn">Denno Coins to the right answer!</string>
+    <string name="back">Back</string>
+    <string name="eigthy">eighty</string>
+    <string name="fifty_six">fifty-six</string>
+    <string name="forty">forty</string>
+    <string name="firstQuest" translatable="false">8 + 1 = ?</string>
+    <string name="secondQuest" translatable="false">( 2 + 8 ) x 8 = ?</string>
+    <string name="thirdQuest" translatable="false">(80 - 40) x 1 = ?</string>
+    <string name="fourthQuest" translatable="false">(28 ÷ 2) x 4 = ?</string>
+    <string name="fifthQuest" translatable="false">[4+ (16 + 60)] x 1 = ?</string>
+    <string name="sixthQuest" translatable="false">7 + [9 - (2 + 5)] = ?</string>
+    <string name="denno_coin_icon" translatable="false">Denno coin icon</string>
+    <string name="slot_machine_game">Slot machine gameSpielautomat</string>
+    <string name="your_coins">Your Coins:</string>
+    <string name="spin">Spin</string>
+    <string name="watch_an_ad_to_play_twice">Watch an ad to play twice</string>
+    <string name="slot_symbol" translatable="false">slot symbol</string>
+    <string name="start_game">Start Game</string>
+    <string name="play_again">Play Again</string>
+    <string name="watch_a_ad_to_play_once">Watch a AD to play once</string>
+    <string name="field_empty">This field cannot be empty!</string>
+    <string name="dialog_msg">Registering, please wait…</string>
+    <string name="different_pass">Passwords do not match</string>
+    <string name="login_failed">Authentication failed</string>
+    <string name="reset_pass">Change your password</string>
+    <string name="type_email">Enter your e-mail address at the field below:</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_pass_email_sent">An email has been sent to you, click the link to change your password.</string>
+    <string name="e_mail_sent_with_success">Email successfully sent</string>
+    <string name="reset_pass_email_not_send">Unable to send a password reset email.</string>
+    <string name="e_mail_not_send">Email not sent</string>
+    <string name="ERROR_WRONG_PASSWORD">The password is invalid or the user does not have a password.</string>
+    <string name="ERROR_CREDENTIAL_ALREADY_IN_USE">This credential is already associated with a different user account.</string>
+    <string name="ERROR_USER_DISABLED">The user account has been disabled by an administrator.</string>
+    <string name="ERROR_USER_NOT_FOUND">There is no user record corresponding to this identifier.</string>
+    <string name="ERROR_WEAK_PASSWORD">The password is invalid it must 6 characters at least.</string>
+    <string name="ERROR_INVALID_EMAIL">The email address is badly formatted.</string>
+    <string name="ERROR_MISSING_EMAIL">An email address must be provided.</string>
+    <string name="combine_the_cards_to_earn_denno_coins">Combine the cards.Combinez les cartes.</string>
+    <string name="try_your_luck_in_the_slot_and_win_denno_coins">Try your luck in the slot.Tentez votre chance dans la machine à sous.</string>
+    <string name="get_the_math_questions_right_and_win_the_denno_coins">Get the math questions right.</string>
+    <string name="math_game">Math Game</string>
+    <string name="go">Go</string>
+    <string name="Denno_coin">Denno Coin</string>
+    <string name="ERROR_INVALID_CREDENTIAL">The supplied auth credential is malformed or has expired.</string>
+    <string name="ERROR_ACCOUNT_EXISTS_WITH_DIFFERENT_CREDENTIAL">An account already exists with the same email address but different sign-in credentials.</string>
+    <string name="your_infos">Your infos</string>
+    <string name="change_account_password">Change account password</string>
+    <string name="view_transaction_information">View transaction information</string>
+    <string name="id" translatable="false">ID:</string>
+    <string name="e_mail" translatable="false">E-mail:</string>
+    <string name="click_to_view_your_transaction_history">Click to view your transaction history</string>
+    <string name="click_to_go_change_your_password">Click to go change your password</string>
+    <string name="referral_program">Referral program</string>
+    <string name="show_referral_information">Show referral information</string>
+    <string name="set_up_a_payment_method">Set up a payment method</string>
+    <string name="please_wait">Please wait</string>
+    <string name="your_referral_list">Your referral list</string>
+    <string name="email_falso">Make sure you entered a real email address</string>
+    <string name="galo">Roobster</string>
+    <string name="galinha">Hen</string>
+    <string name="peru">Turkey</string>
+    <string name="pássaro">Bird</string>
+    <string name="zebra">Zebra</string>
+    <string name="Ocapi">Okapi</string>
+    <string name="gazela">Gazelle</string>
+    <string name="girafa">Giraffe</string>
+    <string name="caranguejo">Crab</string>
+    <string name="lagosta">Lobster</string>
+    <string name="camarão">Shrimp</string>
+    <string name="krill">Krill</string>
+    <string name="crustáceo">Crustacean</string>
+    <string name="lula">Squid</string>
+    <string name="cachorro">Dog</string>
+    <string name="asno">Donkey</string>
+    <string name="cavalo">Horse</string>
+    <string name="alpaca">Alpaca</string>
+    <string name="lobo_guará">Guara Wolf</string>
+    <string name="raposa">Fox</string>
+    <string name="onça">Jaguar</string>
+    <string name="gato">Cat</string>
+    <string name="leopardo">Leopard</string>
+    <string name="ginette">Ginette</string>
+    <string name="abelha">Bee</string>
+    <string name="cigarra">Cicada</string>
+    <string name="pernilongo">Mosquito</string>
+    <string name="joaninha">Ladybug</string>
+    <string name="orca">Orca</string>
+    <string name="boto">Boto</string>
+    <string name="baleia">Whale</string>
+    <string name="golfinho">Dolphin</string>
+    <string name="hamster">Hamster</string>
+    <string name="esquilo">Squile</string>
+    <string name="chinchila">Chinchilla</string>
+    <string name="gerbil">Gerbil</string>
+    <string name="cobra">Snake</string>
+    <string name="anfisbenos">Amphisbaenians</string>
+    <string name="lagarto">Lizard</string>
+    <string name="crocodilo">Crocodile</string>
+    <string name="titulo_tem_ctz">Confirm Answer</string>
+    <string name="msg_tem_ctz">Are you sure this is the correct answer?</string>
+    <string name="confirmar">Confirm</string>
+    <string name="titulo_infogame2">How does the minigame work</string>
+    <string name="msg_infogame2">You have to guess which animal is behind the "shadow". You only get the coins if you reach stage 12, race against time, you only have 30 seconds!</string>
+    <string name="start">Start</string>
+    <string name="entendi">Got it!</string>
+    <string name="guess_which_animal_is_hidden_and_earn_denno_coins">Guess which animal is hidden.</string>
+    <string name="configurations">Configurations</string>
+    <string name="request_withdrawal">Request withdrawal</string>
+    <string name="you_need_more">You need +</string>
+    <string name="information_missing">Verifique se você selecionou uma forma de pagamento e um valor!</string>
+    <string name="go_to_setup_pix">Go to setup PIX</string>
+    <string name="go_to_setup_paypal">Go to setup PayPal</string>
+    <string name="payment_preferences">Payment preferences</string>
+    <string name="CPF" translatable="false">CPF</string>
+    <string name="Phone">Phone Number</string>
+    <string name="Email" translatable="false">Email</string>
+    <string name="Random">Random</string>
+    <string name="enter_your_real_name">Enter your real name</string>
+    <string name="enter_your_pix_key">Enter your PIX key</string>
+    <string name="save">Save</string>
+    <string name="setup_pix">Setup PIX</string>
+    <string name="pix_key_type">PIX key type</string>
+    <string name="setup_paypal">Setup PayPal</string>
+    <string name="enter_paypal_email">Enter your PayPal email</string>
+    <string-array name="PixKeyTypes">
+        <item>@string/CPF</item>
+        <item>@string/Phone</item>
+        <item>@string/Email</item>
+        <item>@string/Random</item>
+    </string-array>
+    <string name="setup_missing">You have not yet provided your information for this service.</string>
+    <string name="setup_success">You have successfully set the method information!Vous avez défini avec succès les informations sur la méthode !</string>
+    <string name="setup_error">Name and/or key is too small or there are blank fields</string>
+    <string name="watch_an_ad_to_play">Watch an ad to play</string>
+    <string name="guess_the_animal">Guess the animal</string>
+    <string name="press_again_to_exit">Press again to return to the previous screen</string>
+    <string name="setup_pp_Error">Name and/or email does not exist or there are blank fields</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="choose_a_method">Choose a method</string>
+    <string name="choose_a_withdrawal_amount">Choose a withdrawal amount</string>
+    <string name="_20_0">$20.0</string>
+    <string name="_5_0">$5.0</string>
+    <string name="pix" translatable="false">PIX</string>
+    <string name="paypal" translatable="false">PayPal</string>
+    <string name="withdraw_resquest_sucess">"A solicitação de saque foi enviada com sucesso! "</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="withdraw_request_title">Request sent successfully!</string>
+    <string name="interstital" translatable="false">reward</string>
+    <string name="withdraw_req_suc_1">Please allow up to 48 hours for the money to be deposited into your account.</string>
+    <string name="checking_internet_connection">Checking internet connection…</string>
+    <string name="no_net">No internet connection!</string>
+    <string name="_10_0">$10.0</string>
+
+    <string name="show_denno_coins">Show Denno coins</string>
+    <string name="ERROR_EMAIL_ALREADY_IN_USE">The email address is already in use by another account.</string>
+
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953781671091",
+    "firebase_url": "https://pc-api-6994935973497281135-881-default-rtdb.firebaseio.com",
+    "project_id": "pc-api-6994935973497281135-881",
+    "storage_bucket": "pc-api-6994935973497281135-881.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953781671091:android:ae8777b7990584f3cc0cc6",
+        "android_client_info": {
+          "package_name": "com.nenno.dennoearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953781671091-te86gdkjsuief6d1himo2as7q75iea8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nenno.dennoearningapp",
+            "certificate_hash": "7a511ab44f792ff21f5e3d13956a977b2fe98757"
+          }
+        },
+        {
+          "client_id": "953781671091-k0sdn5qs2r5do8q9mt1ik5edhqv8jp97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnDbVcBuayWCdjhcnB5KayBeXXTC8BjU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953781671091-k0sdn5qs2r5do8q9mt1ik5edhqv8jp97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

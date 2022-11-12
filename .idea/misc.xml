@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/bnt_guess_animal.xml" value="0.1085" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/btn_correct_answer.xml" value="0.1085" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/btn_incorrect_answer.xml" value="0.1085" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/custom_progress_bg.xml" value="0.1945" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/linear_likebtn.xml" value="0.1085" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/linear_outlinelikebtn.xml" value="0.1085" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/referral_progress.xml" value="0.1975" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/stroketxt.xml" value="0.1975" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/testgradient.xml" value="0.1975" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/drawable/textgradient.xml" value="0.1975" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/font/font.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_configs.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_guessanimalgame.xml" value="0.2" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_home.xml" value="0.2876204595997035" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_mathminigame.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_memorygame.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_memoryminigame.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_referral.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_slot_machine.xml" value="0.2" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_slotmachine.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/activity_userinfos.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/custom_loading.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/progress_bar_background.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/progress_bar_background2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/layout/reset_pass_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/minec/AndroidStudioProjects/DennoEarningApp/app/src/main/res/xml/progress_bar_background.xml" value="0.17074275362318841" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

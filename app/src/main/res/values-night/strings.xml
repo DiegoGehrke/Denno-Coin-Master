@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_to_denno_earning_app">Welcome to Denno Earning App</string>
+    <string name="to_continue_you_confirm_that_read_our_privacy_policy_and_the_terms_of_use">To continue you confirm that read our privacy policy and the terms of use.</string>
+    <string name="sign_up_with_e_mail">Sign up with e-mail</string>
+    <string name="type_a_e_mail_address_here">Type a e-mail address here</string>
+    <string name="create_a_password_here">Create a password here</string>
+    <string name="confirm_your_password_here">Confirm your password here</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="log_in_with_e_mail">Log in with e-mail</string>
+    <string name="type_your_e_mail_address">Type your e-mail address</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="you_have_0_denno" translatable="false">You have 0 Denno</string>
+    <string name="id_0000000000000" translatable="false">ID: 0000000000000</string>
+    <string name="nine">Nine</string>
+    <string name="memory_game">Memory game</string>
+    <string name="_60_seconds_left" translatable="false">60 Seconds left</string>
+    <string name="will_earn">will earn</string>
+    <string name="back">Back</string>
+    <string name="eigthy">eigth</string>
+    <string name="fifty_six">fifty-six</string>
+    <string name="forty">forty</string>
+    <string name="denno_coin_icon" translatable="false">Denno coin icon</string>
+    <string name="slot_machine_game">Slot machine game</string>
+    <string name="your_coins">Your Coins:</string>
+    <string name="spin">Spin</string>
+    <string name="watch_an_ad_to_play_twice">Watch an ad to play twice</string>
+    <string name="slot_symbol" translatable="false">slot symbol</string>
+    <string name="start_game">Start Game</string>
+    <string name="play_again">Play Again</string>
+    <string name="watch_a_ad_to_play_once">Watch a AD to play once</string>
+    <string name="combine_the_cards_to_earn_denno_coins">Combine the cards.</string>
+    <string name="try_your_luck_in_the_slot_and_win_denno_coins">Try your luck in the slot.</string>
+    <string name="get_the_math_questions_right_and_win_the_denno_coins">Get the math questions righ</string>
+    <string name="go">Go</string>
+    <string name="your_infos">Your infos</string>
+    <string name="change_account_password">Change account password</string>
+    <string name="view_transaction_information">View transaction information</string>
+    <string name="id" translatable="false">ID:</string>
+    <string name="e_mail" translatable="false">E-mail:</string>
+    <string name="click_to_view_your_transaction_history">Click to view your transaction history</string>
+    <string name="click_to_go_change_your_password">Click to go change your password</string>
+    <string name="referral_program">Referral program</string>
+    <string name="show_referral_information">Show referral information</string>
+    <string name="set_up_a_payment_method">Set up a payment method</string>
+    <string name="show_denno_coins">Show Denno coins</string>
+    <string name="please_wait">Please wait</string>
+    <string name="your_referral_list">Your referral list</string>
+    <string name="guess_which_animal_is_hidden_and_earn_denno_coins">Guess which animal is hidden</string>
+    <string name="configurations">Configurations</string>
+    <string name="request_withdrawal">Request withdrawal</string>
+    <string name="go_to_setup_pix">Go to setup PIX</string>
+    <string name="go_to_setup_paypal">Go to setup PayPal</string>
+    <string name="payment_preferences">Payment preferences</string>
+    <string name="enter_your_real_name">Enter your real name</string>
+    <string name="enter_your_pix_key">Enter your PIX key</string>
+    <string name="save">Save</string>
+    <string name="setup_pix">Setup PIX</string>
+    <string name="pix_key_type">PIX key type</string>
+    <string name="setup_paypal">Setup PayPal</string>
+    <string name="enter_paypal_email">Enter your PayPal email</string>
+    <string name="setup_success">You have successfully set the method information!</string>
+    <string name="setup_error">Name or key is too short or there are blank fields.</string>
+    <string name="watch_an_ad_to_play">Watch an ad to play</string>
+    <string name="choose_a_method">Choose a method</string>
+    <string name="choose_a_withdrawal_amount">Choose a withdrawal amount</string>
+    <string name="_20_0">$20.0</string>
+    <string name="_5_0">$5.0</string>
+    <string name="pix" translatable="false">PIX</string>
+    <string name="paypal">PayPal</string>
+    <string name="withdraw_resquest_sucess">"A solicitação de saque foi enviada com sucesso! "</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="interstital" translatable="false" />
+    <string name="checking_internet_connection">Checking internet connection.</string>
+    <string name="_10_0">$10.0</string>
+</resources>

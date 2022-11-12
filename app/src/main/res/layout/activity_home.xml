@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/botBg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232227"
+    android:backgroundTint="#232227"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:id="@+id/layoutsup"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/userprofile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="center"
+            app:srcCompat="@drawable/twofouruseric" />
+
+        <ImageView
+            android:id="@+id/configi"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/twofoursettings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/frame11"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingStart="52dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="52dp"
+            android:paddingBottom="20dp"
+            tools:layout_editor_absoluteY="71dp">
+
+            <TextView
+                android:id="@+id/txt_you_have"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="@font/calistobold"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/you_have"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/userid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calistobold"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/id"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/minigame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/minigback1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="257dp">
+
+        <LinearLayout
+            android:id="@+id/combinesup"
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="48dp">
+
+            <TextView
+                android:id="@+id/txt_combine"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calistobold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/combine_the_cards_to_earn_denno_coins"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gosup"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btngo"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/calistobold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/go"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/minigame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/guess_animalagain"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="466dp">
+
+        <LinearLayout
+            android:id="@+id/lucksup"
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="48dp">
+
+            <TextView
+                android:id="@+id/txt_try_luck"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calistobold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/guess_which_animal_is_hidden_and_earn_denno_coins"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/go2sup"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btngo2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:fontFamily="@font/calistobold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/go"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/minigame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/minigback2"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/mathsup"
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="48dp">
+
+            <TextView
+                android:id="@+id/txt_math"
+                android:layout_width="132dp"
+                android:layout_height="70dp"
+                android:fontFamily="@font/calistobold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/get_the_math_questions_right_and_win_the_denno_coins"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/go1sup"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btngo1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/calistobold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/go"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/uihelper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"></LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/showbanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"></LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

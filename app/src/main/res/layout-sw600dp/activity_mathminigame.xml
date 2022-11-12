@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bbggg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222227"
+    android:fitsSystemWindows="true"
+    android:paddingTop="24dp"
+    tools:context=".mathminigame">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/game1_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#232227"
+                android:backgroundTint="#232227"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/support1"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="start|center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/backic1"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_weight="0"
+                        android:contentDescription="@string/back"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/backictest" />
+
+                    <TextView
+                        android:id="@+id/thegmname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:fontFamily="@font/calistobold"
+                        android:text="@string/math_game"
+                        android:textColor="#FFFFFF"
+                        android:textSize="40sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/timer_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="0"
+                    android:fontFamily="@font/flareserif"
+                    android:text="@string/seconds_left"
+                    android:textColor="#FFFFFF"
+                    android:textSize="34sp" />
+
+                <ProgressBar
+                    android:id="@+id/timerProgress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="576dp"
+                    android:layout_height="16dp"
+                    android:layout_marginBottom="24dp"
+                    android:indeterminate="false"
+                    android:max="60"
+                    android:progress="60"
+                    android:progressDrawable="@drawable/big_progress" />
+
+                <LinearLayout
+                    android:id="@+id/blackboard"
+                    android:layout_width="600dp"
+                    android:layout_height="224dp"
+                    android:alpha="0.5"
+                    android:background="@drawable/large_blackboard"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/rewardsup"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:gravity="start|center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:id="@+id/largeicon"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="0"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/big_denno_ic" />
+
+                        <TextView
+                            android:id="@+id/mycoins_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:fontFamily="@font/flareserif"
+                            android:text="@string/will_earn"
+                            android:textColor="#FFFFFF"
+                            android:textSize="24sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/questsup"
+                        android:layout_width="match_parent"
+                        android:layout_height="118dp"
+                        android:gravity="top|center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/question"
+                            android:layout_width="0dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="24dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/flareserif"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="0 + 0 = ?"
+                            android:textColor="#FFFFFF"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/oneone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.5"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ans1"
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/big_btn"
+                        android:contentDescription="@string/eigthy"
+                        android:paddingTop="12dp">
+
+                        <TextView
+                            android:id="@+id/ANS1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/flareserif"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="#FFFFFF"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ans2"
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/big_btn"
+                        android:contentDescription="@string/fifty_six"
+                        android:focusable="auto"
+                        android:paddingTop="12dp">
+
+                        <TextView
+                            android:id="@+id/ANS2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/flareserif"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="#FFFFFF"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/twotwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.5"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ans3"
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/big_btn"
+                        android:contentDescription="@string/forty"
+                        android:paddingTop="12dp">
+
+                        <TextView
+                            android:id="@+id/ANS3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/flareserif"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="#FFFFFF"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ans4"
+                        android:layout_width="180dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        android:background="@drawable/big_btn"
+                        android:contentDescription="@string/nine"
+                        android:paddingTop="12dp">
+
+                        <TextView
+                            android:id="@+id/ANS4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/flareserif"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="#FFFFFF"
+                            android:textSize="34sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/thewhatchadbtn"
+                    android:layout_width="411dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/linear_likebtn"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="16dp">
+
+                    <TextView
+                        android:id="@+id/whatchadtxt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/calistobold"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:letterSpacing="0.04"
+                        android:text="@string/watch_an_ad_to_play"
+                        android:textColor="#FFFFFF"
+                        android:textSize="34sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

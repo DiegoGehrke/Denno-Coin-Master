@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fundobrb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232227"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dialog_bg"
+        android:layout_width="320dp"
+        android:layout_height="480dp"
+        android:background="@drawable/resetpassback"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/dg_head"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="12dp"
+                app:srcCompat="@drawable/ic_pix" />
+
+            <TextView
+                android:id="@+id/titulo_metodo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/calistobold"
+                android:text="@string/setup_pix"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dg_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/line"
+            android:orientation="horizontal" />
+
+        <EditText
+            android:id="@+id/person_name"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:background="@drawable/inputlayout"
+            android:ems="24"
+            android:fontFamily="@font/flareserif"
+            android:hint="@string/enter_your_real_name"
+            android:inputType="textPersonName"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#FF535353" />
+
+        <com.github.pinball83.maskededittext.MaskedEditText
+            android:id="@+id/pix_key"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints=""
+            android:background="@drawable/inputlayout"
+            android:ems="24"
+            android:fontFamily="@font/flareserif"
+            android:hint="@string/enter_your_pix_key"
+            android:inputType="textPersonName"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#FF535353" />
+
+        <TextView
+            android:id="@+id/txt_pix_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/calistobold"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/pix_key_type"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/line_spinner"
+            android:contentDescription="@string/CPF" />
+
+        <LinearLayout
+            android:id="@+id/helpai"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/sup_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_cancel"
+                android:layout_width="144dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="4dp"
+                android:background="@drawable/linear_outlinelikebtn"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="12dp">
+
+                <com.nenno.dennoearningapp.StrokeTextView
+                    android:id="@+id/txt_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calistobold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/cancel"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_send"
+                android:layout_width="144dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:background="@drawable/linear_likebtn"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="12dp">
+
+                <com.nenno.dennoearningapp.StrokeTextView
+                    android:id="@+id/txt_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calistobold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/save"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    app:stv_strokeColor="#232227"
+                    app:stv_strokeIs="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

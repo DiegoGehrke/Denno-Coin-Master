@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232227"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_ui"
+        android:layout_width="288dp"
+        android:layout_height="68dp"
+        android:background="@drawable/friendline"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/coins_earned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/flareserif"
+            android:gravity="center_vertical"
+            android:text="@string/Denno_coin"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/nada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/friend_uid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/flareserif"
+                android:gravity="center_vertical"
+                android:text="Friend ID: 1234567890"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/reffer_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/flareserif"
+                android:gravity="end"
+                android:text="99/99/99"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
